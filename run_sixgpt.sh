@@ -636,7 +636,7 @@ services:
       - VANA_PRIVATE_KEY=\${VANA_PRIVATE_KEY}
       - VANA_NETWORK=\${VANA_NETWORK}
       - OLLAMA_API_URL=\${OLLAMA_API_URL}
-    restart: no
+    restart: "no"
     logging:
       driver: "json-file"
       options:
@@ -690,7 +690,7 @@ services:
       - VANA_PRIVATE_KEY=\${VANA_PRIVATE_KEY}
       - VANA_NETWORK=\${VANA_NETWORK}
       - OLLAMA_API_URL=\${OLLAMA_API_URL}
-    restart: no
+    restart: "no"
     logging:
       driver: "json-file"
       options:
@@ -735,7 +735,7 @@ services:
       - VANA_PRIVATE_KEY=\${VANA_PRIVATE_KEY}
       - VANA_NETWORK=\${VANA_NETWORK}
       - OLLAMA_API_URL=\${OLLAMA_API_URL}
-    restart: no
+    restart: "no"
     logging:
       driver: "json-file"
       options:
@@ -781,7 +781,7 @@ services:
       - VANA_PRIVATE_KEY=\${VANA_PRIVATE_KEY}
       - VANA_NETWORK=\${VANA_NETWORK}
       - OLLAMA_API_URL=\${OLLAMA_API_URL}
-    restart: no
+    restart: "no"
     logging:
       driver: "json-file"
       options:
@@ -915,7 +915,7 @@ services:
       - VANA_PRIVATE_KEY=\${VANA_PRIVATE_KEY}
       - VANA_NETWORK=\${VANA_NETWORK}
       - OLLAMA_API_URL=\${OLLAMA_API_URL}
-    restart: no
+    restart: "no"
     logging:
       driver: "json-file"
       options:
@@ -963,7 +963,7 @@ services:
       - VANA_PRIVATE_KEY=\${VANA_PRIVATE_KEY}
       - VANA_NETWORK=\${VANA_NETWORK}
       - OLLAMA_API_URL=\${OLLAMA_API_URL}
-    restart: no
+    restart: "no"
     logging:
       driver: "json-file"
       options:
