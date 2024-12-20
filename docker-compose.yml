@@ -21,9 +21,9 @@ services:
     depends_on:
       - ollama
     environment:
-      - VANA_PRIVATE_KEY=${VANA_PRIVATE_KEY}
-      - VANA_NETWORK=${VANA_NETWORK}
-      - OLLAMA_API_URL=${OLLAMA_API_URL}
+      - VANA_PRIVATE_KEY=0x46d8FBc09C93b85D185302eeaC579eECb6EC70a9
+      - VANA_NETWORK=moksha
+      - OLLAMA_API_URL=http://ollama:11434/api
     restart: unless-stopped
     logging:
       driver: "json-file"
