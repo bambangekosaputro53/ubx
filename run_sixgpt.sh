@@ -55,6 +55,34 @@ set_language() {
       M_TOTAL_SWAP="Total Swap: , Free Swap: "
       M_ENV_FILE_NOT_FOUND=".env file not found. Creating a new .env file with necessary configurations."
       M_PRIVATE_KEY_NOT_SET="VANA_PRIVATE_KEY is not set. Please enter your private key (64-character hexadecimal):"
+      M_CHECK_CPU_ERR="Unable to detect CPU type or core count."
+      M_AVAILABLE_RAM="Available RAM"
+      M_INVALID_PK="Invalid VANA_PRIVATE_KEY format in .env file. Please enter a valid 64-character hexadecimal key."
+      M_VALID_PK="VANA_PRIVATE_KEY is valid and loaded from .env."
+      M_INPUT_NETWORK="Please enter the network (default is 'mainnet')"
+      M_INPUT_API_URL="Please enter the API URL (default is 'http://ollama:11434/api')"
+      M_SET_MSG="is set to"
+      M_INSTALL_REJECTION="User choose not to install"
+      M_GPU_REJECT="User choose to use GPU"
+      M_FILE_CREATION="Creating a new file with default configuration"
+      M_FILE_CREATED="has been created with default configuration"
+      M_GPU_CONFIG_ADD="GPU configuration added to"
+      M_NO_COMPATIBLE_GPU="No compatible GPU found"
+      M_CONTINUE_WITHOUT_GPU="Continue without GPU? (y/n)"
+      M_CONFIRM_CONTINUE_WITHOUT_GPU="User choice to continue without GPU"
+      M_REJECT_CONTINUE_WITHOUT_GPU="User choose not to continue without GPU"
+      M_GPU_CONFIGURATION_ADD="GPU configuration added to",
+      M_NO_GPU_CONFIGURATION_FOUND_TO_DELETE="No GPU configurations found to delete"
+      M_GPU_CONFIGURATION_ENABLE="Enabling GPU configuration by recreating docker-compose.yml"
+      M_CPU_CONFIGURATION_ENABLE="Enabling CPU configuration by recreating docker-compose.yml"
+      M_CONFIGURATION_REMOVED="configuration removed",
+      M_CONFIGURATION_BACK_UP="Original backup is saved as docker-compose.yml.bak.",
+      M_CREATED_DOCKER_COMPOSE="New $DOCKER_COMPOSE_FILE created with"
+      M_REMOVE_DOCKER_COMPOSE="Removing existing $DOCKER_COMPOSE_FILE"
+      M_LOG_DISPLAY_GUIDE="Logs are being displayed. Press Ctrl+C to stop viewing logs and return to the main menu"
+      M_MINER_RESTART="Restarting miner"
+      M_MINER_STOP="Stopping miner"
+      M_MINER_RESTARTED="Miner restarted"
 
       ;;
 
@@ -109,6 +137,34 @@ set_language() {
       M_TOTAL_SWAP="Total Swap: , Swap Gratis: "
       M_ENV_FILE_NOT_FOUND="File .env tidak ditemukan. Membuat file .env baru dengan konfigurasi yang diperlukan."
       M_PRIVATE_KEY_NOT_SET="VANA_PRIVATE_KEY belum diatur. Silakan masukkan kunci pribadi Anda (heksadesimal 64 karakter):"
+      M_CHECK_CPU_ERR="Gagal mendeteksi tipe CPU atau jumlah core."
+      M_AVAILABLE_RAM="RAM Tersedia"
+      M_INVALID_PK="Format VANA_PRIVATE_KEY tidak valid dalam file .env. Harap masukkan kunci heksadesimal 64 karakter yang valid."
+      M_VALID_PK="VANA_PRIVATE_KEY valid dan dimuat dari .env."
+      M_INPUT_NETWORK="Silakan masukkan jaringan (default adalah 'mainnet')"
+      M_INPUT_API_URL="Silakan masukkan URL API (default adalah 'http://ollama:11434/api')"
+      M_SET_MSG="disetel ke"
+      M_INSTALL_REJECTION="Pengguna memilih untuk tidak menginstal"
+      M_GPU_REJECT="Pengguna memilih untuk menggunakan GPU"
+      M_FILE_CREATION="Membuat file baru dengan konfigurasi default"
+      M_FILE_CREATED="telah dibuat dengan konfigurasi default"
+      M_GPU_CONFIG_ADD="Konfigurasi GPU ditambahkan ke"
+      M_NO_COMPATIBLE_GPU="Tidak ada GPU yang kompatibel ditemukan"
+      M_CONTINUE_WITHOUT_GPU="Lanjutkan tanpa GPU? (y/t)"
+      M_CONFIRM_CONTINUE_WITHOUT_GPU="Pilihan pengguna untuk melanjutkan tanpa GPU"
+      M_REJECT_CONTINUE_WITHOUT_GPU="Pengguna memilih untuk tidak melanjutkan tanpa GPU"
+      M_GPU_CONFIGURATION_ADD="Konfigurasi GPU ditambahkan ke"
+      M_NO_GPU_CONFIGURATION_FOUND_TO_DELETE="Tidak ada konfigurasi GPU yang ditemukan untuk dihapus"
+      M_GPU_CONFIGURATION_ENABLE="Mengaktifkan konfigurasi GPU dengan membuat ulang docker-compose.yml"
+      M_CPU_CONFIGURATION_ENABLE="Mengaktifkan konfigurasi CPU dengan membuat ulang docker-compose.yml"
+      M_CONFIGURATION_REMOVED="konfigurasi dihapus"
+      M_CONFIGURATION_BACK_UP="Cadangan asli disimpan sebagai docker-compose.yml.bak."
+      M_CREATED_DOCKER_COMPOSE="File $DOCKER_COMPOSE_FILE baru dibuat dengan"
+      M_REMOVE_DOCKER_COMPOSE="Menghapus $DOCKER_COMPOSE_FILE yang ada"
+      M_LOG_DISPLAY_GUIDE="Log sedang ditampilkan. Tekan Ctrl+C untuk berhenti melihat log dan kembali ke menu utama"
+      M_MINER_RESTART="Memulai ulang penambang"
+      M_MINER_STOP="Menghentikan penambang"
+      M_MINER_RESTARTED="Penambang dimulai ulang"
 
       ;;
       # Russian messages
@@ -162,6 +218,34 @@ set_language() {
       M_TOTAL_SWAP="Всего Swap: 8.2G, Свободно Swap: 8.2G"
       M_ENV_FILE_NOT_FOUND="Файл .env не найден. Создание нового файла .env с необходимыми конфигурациями."
       M_PRIVATE_KEY_NOT_SET="VANA_PRIVATE_KEY не установлен. Пожалуйста, введите ваш закрытый ключ (64-значный шестнадцатеричный):"
+      M_CHECK_CPU_ERR="Unable to detect CPU type or core count."
+      M_AVAILABLE_RAM="Available RAM"
+      M_INVALID_PK="Invalid VANA_PRIVATE_KEY format in .env file. Please enter a valid 64-character hexadecimal key."
+      M_VALID_PK="VANA_PRIVATE_KEY is valid and loaded from .env."
+      M_INPUT_NETWORK="Please enter the network (default is 'mainnet')"
+      M_INPUT_API_URL="Please enter the API URL (default is 'http://ollama:11434/api')"
+      M_SET_MSG="is set to"
+      M_INSTALL_REJECTION="User choose not to install"
+      M_GPU_REJECT="User choose to use GPU"
+      M_FILE_CREATION="Creating a new file with default configuration"
+      M_FILE_CREATED="has been created with default configuration"
+      M_GPU_CONFIG_ADD="GPU configuration added to"
+      M_NO_COMPATIBLE_GPU="No compatible GPU found"
+      M_CONTINUE_WITHOUT_GPU="Continue without GPU? (y/n)"
+      M_CONFIRM_CONTINUE_WITHOUT_GPU="User choice to continue without GPU"
+      M_REJECT_CONTINUE_WITHOUT_GPU="User choose not to continue without GPU"
+      M_GPU_CONFIGURATION_ADD="GPU configuration added to",
+      M_NO_GPU_CONFIGURATION_FOUND_TO_DELETE="No GPU configurations found to delete"
+      M_GPU_CONFIGURATION_ENABLE="Enabling GPU configuration by recreating docker-compose.yml"
+      M_CPU_CONFIGURATION_ENABLE="Enabling CPU configuration by recreating docker-compose.yml"
+      M_CONFIGURATION_REMOVED="configuration removed",
+      M_CONFIGURATION_BACK_UP="Original backup is saved as docker-compose.yml.bak.",
+      M_CREATED_DOCKER_COMPOSE="New $DOCKER_COMPOSE_FILE created with"
+      M_REMOVE_DOCKER_COMPOSE="Removing existing $DOCKER_COMPOSE_FILE"
+      M_LOG_DISPLAY_GUIDE="Logs are being displayed. Press Ctrl+C to stop viewing logs and return to the main menu"
+      M_MINER_RESTART="Restarting miner"
+      M_MINER_STOP="Stopping miner"
+      M_MINER_RESTARTED="Miner restarted"
 
       ;;
 
@@ -216,6 +300,34 @@ set_language() {
       M_TOTAL_SWAP="总 Swap：， 空闲 Swap："
       M_ENV_FILE_NOT_FOUND=".env 文件未找到。正在创建新的 .env 文件，包含必要的配置。"
       M_PRIVATE_KEY_NOT_SET="VANA_PRIVATE_KEY 未设置。请输入您的私钥（64 位十六进制）："
+      M_CHECK_CPU_ERR="Unable to detect CPU type or core count."
+      M_AVAILABLE_RAM="Available RAM"
+      M_INVALID_PK="Invalid VANA_PRIVATE_KEY format in .env file. Please enter a valid 64-character hexadecimal key."
+      M_VALID_PK="VANA_PRIVATE_KEY is valid and loaded from .env."
+      M_INPUT_NETWORK="Please enter the network (default is 'mainnet')"
+      M_INPUT_API_URL="Please enter the API URL (default is 'http://ollama:11434/api')"
+      M_SET_MSG="is set to"
+      M_INSTALL_REJECTION="User choose not to install"
+      M_GPU_REJECT="User choose to use GPU"
+      M_FILE_CREATION="Creating a new file with default configuration"
+      M_FILE_CREATED="has been created with default configuration"
+      M_GPU_CONFIG_ADD="GPU configuration added to"
+      M_NO_COMPATIBLE_GPU="No compatible GPU found"
+      M_CONTINUE_WITHOUT_GPU="Continue without GPU? (y/n)"
+      M_CONFIRM_CONTINUE_WITHOUT_GPU="User choice to continue without GPU"
+      M_REJECT_CONTINUE_WITHOUT_GPU="User choose not to continue without GPU"
+      M_GPU_CONFIGURATION_ADD="GPU configuration added to",
+      M_NO_GPU_CONFIGURATION_FOUND_TO_DELETE="No GPU configurations found to delete"
+      M_GPU_CONFIGURATION_ENABLE="Enabling GPU configuration by recreating docker-compose.yml"
+      M_CPU_CONFIGURATION_ENABLE="Enabling CPU configuration by recreating docker-compose.yml"
+      M_CONFIGURATION_REMOVED="configuration removed",
+      M_CONFIGURATION_BACK_UP="Original backup is saved as docker-compose.yml.bak.",
+      M_CREATED_DOCKER_COMPOSE="New $DOCKER_COMPOSE_FILE created with"
+      M_REMOVE_DOCKER_COMPOSE="Removing existing $DOCKER_COMPOSE_FILE"
+      M_LOG_DISPLAY_GUIDE="Logs are being displayed. Press Ctrl+C to stop viewing logs and return to the main menu"
+      M_MINER_RESTART="Restarting miner"
+      M_MINER_STOP="Stopping miner"
+      M_MINER_RESTARTED="Miner restarted"
 
       ;;
 
@@ -270,6 +382,34 @@ set_language() {
       M_TOTAL_SWAP="Toplam Swap: , Boş Swap: "
       M_ENV_FILE_NOT_FOUND=".env dosyası bulunamadı. Gerekli yapılandırmalarla yeni bir .env dosyası oluşturuluyor."
       M_PRIVATE_KEY_NOT_SET="VANA_PRIVATE_KEY ayarlanmamış. Lütfen özel anahtarınızı girin (64 karakter onaltılık):"
+      M_CHECK_CPU_ERR="Unable to detect CPU type or core count."
+      M_AVAILABLE_RAM="Available RAM"
+      M_INVALID_PK="Invalid VANA_PRIVATE_KEY format in .env file. Please enter a valid 64-character hexadecimal key."
+      M_VALID_PK="VANA_PRIVATE_KEY is valid and loaded from .env."
+      M_INPUT_NETWORK="Please enter the network (default is 'mainnet')"
+      M_INPUT_API_URL="Please enter the API URL (default is 'http://ollama:11434/api')"
+      M_SET_MSG="is set to"
+      M_INSTALL_REJECTION="User choose not to install"
+      M_GPU_REJECT="User choose to use GPU"
+      M_FILE_CREATION="Creating a new file with default configuration"
+      M_FILE_CREATED="has been created with default configuration"
+      M_GPU_CONFIG_ADD="GPU configuration added to"
+      M_NO_COMPATIBLE_GPU="No compatible GPU found"
+      M_CONTINUE_WITHOUT_GPU="Continue without GPU? (y/n)"
+      M_CONFIRM_CONTINUE_WITHOUT_GPU="User choice to continue without GPU"
+      M_REJECT_CONTINUE_WITHOUT_GPU="User choose not to continue without GPU"
+      M_GPU_CONFIGURATION_ADD="GPU configuration added to",
+      M_NO_GPU_CONFIGURATION_FOUND_TO_DELETE="No GPU configurations found to delete"
+      M_GPU_CONFIGURATION_ENABLE="Enabling GPU configuration by recreating docker-compose.yml"
+      M_CPU_CONFIGURATION_ENABLE="Enabling CPU configuration by recreating docker-compose.yml"
+      M_CONFIGURATION_REMOVED="configuration removed",
+      M_CONFIGURATION_BACK_UP="Original backup is saved as docker-compose.yml.bak.",
+      M_CREATED_DOCKER_COMPOSE="New $DOCKER_COMPOSE_FILE created with"
+      M_REMOVE_DOCKER_COMPOSE="Removing existing $DOCKER_COMPOSE_FILE"
+      M_LOG_DISPLAY_GUIDE="Logs are being displayed. Press Ctrl+C to stop viewing logs and return to the main menu"
+      M_MINER_RESTART="Restarting miner"
+      M_MINER_STOP="Stopping miner"
+      M_MINER_RESTARTED="Miner restarted"
 
       ;;
 
@@ -324,6 +464,34 @@ set_language() {
       M_TOTAL_SWAP="कुल स्वैप: , मुक्त स्वैप: "
       M_ENV_FILE_NOT_FOUND=".env फ़ाइल नहीं मिली। आवश्यक कॉन्फ़िगरेशन के साथ नई .env फ़ाइल बनाई जा रही है।"
       M_PRIVATE_KEY_NOT_SET="VANA_PRIVATE_KEY सेट नहीं किया गया है। कृपया अपना निजी कुंजी दर्ज करें (64-आधार hexadecimal):"
+      M_CHECK_CPU_ERR="Unable to detect CPU type or core count."
+      M_AVAILABLE_RAM="Available RAM"
+      M_INVALID_PK="Invalid VANA_PRIVATE_KEY format in .env file. Please enter a valid 64-character hexadecimal key."
+      M_VALID_PK="VANA_PRIVATE_KEY is valid and loaded from .env."
+      M_INPUT_NETWORK="Please enter the network (default is 'mainnet')"
+      M_INPUT_API_URL="Please enter the API URL (default is 'http://ollama:11434/api')"
+      M_SET_MSG="is set to"
+      M_INSTALL_REJECTION="User choose not to install"
+      M_GPU_REJECT="User choose to use GPU"
+      M_FILE_CREATION="Creating a new file with default configuration"
+      M_FILE_CREATED="has been created with default configuration"
+      M_GPU_CONFIG_ADD="GPU configuration added to"
+      M_NO_COMPATIBLE_GPU="No compatible GPU found"
+      M_CONTINUE_WITHOUT_GPU="Continue without GPU? (y/n)"
+      M_CONFIRM_CONTINUE_WITHOUT_GPU="User choice to continue without GPU"
+      M_REJECT_CONTINUE_WITHOUT_GPU="User choose not to continue without GPU"
+      M_GPU_CONFIGURATION_ADD="GPU configuration added to",
+      M_NO_GPU_CONFIGURATION_FOUND_TO_DELETE="No GPU configurations found to delete"
+      M_GPU_CONFIGURATION_ENABLE="Enabling GPU configuration by recreating docker-compose.yml"
+      M_CPU_CONFIGURATION_ENABLE="Enabling CPU configuration by recreating docker-compose.yml"
+      M_CONFIGURATION_REMOVED="configuration removed",
+      M_CONFIGURATION_BACK_UP="Original backup is saved as docker-compose.yml.bak.",
+      M_CREATED_DOCKER_COMPOSE="New $DOCKER_COMPOSE_FILE created with"
+      M_REMOVE_DOCKER_COMPOSE="Removing existing $DOCKER_COMPOSE_FILE"
+      M_LOG_DISPLAY_GUIDE="Logs are being displayed. Press Ctrl+C to stop viewing logs and return to the main menu"
+      M_MINER_RESTART="Restarting miner"
+      M_MINER_STOP="Stopping miner"
+      M_MINER_RESTARTED="Miner restarted"
 
       ;;
 
@@ -378,6 +546,34 @@ set_language() {
       M_TOTAL_SWAP="إجمالي Swap: ، Swap المتاحة: "
       M_ENV_FILE_NOT_FOUND=".env ملف غير موجود. جارٍ إنشاء ملف .env جديد بالإعدادات الضرورية."
       M_PRIVATE_KEY_NOT_SET="VANA_PRIVATE_KEY لم يتم تعيينه. يرجى إدخال مفتاحك الخاص (64 حرفاً سادسياً):"
+      M_CHECK_CPU_ERR="Unable to detect CPU type or core count."
+      M_AVAILABLE_RAM="Available RAM"
+      M_INVALID_PK="Invalid VANA_PRIVATE_KEY format in .env file. Please enter a valid 64-character hexadecimal key."
+      M_VALID_PK="VANA_PRIVATE_KEY is valid and loaded from .env."
+      M_INPUT_NETWORK="Please enter the network (default is 'mainnet')"
+      M_INPUT_API_URL="Please enter the API URL (default is 'http://ollama:11434/api')"
+      M_SET_MSG="is set to"
+      M_INSTALL_REJECTION="User choose not to install"
+      M_GPU_REJECT="User choose to use GPU"
+      M_FILE_CREATION="Creating a new file with default configuration"
+      M_FILE_CREATED="has been created with default configuration"
+      M_GPU_CONFIG_ADD="GPU configuration added to"
+      M_NO_COMPATIBLE_GPU="No compatible GPU found"
+      M_CONTINUE_WITHOUT_GPU="Continue without GPU? (y/n)"
+      M_CONFIRM_CONTINUE_WITHOUT_GPU="User choice to continue without GPU"
+      M_REJECT_CONTINUE_WITHOUT_GPU="User choose not to continue without GPU"
+      M_GPU_CONFIGURATION_ADD="GPU configuration added to",
+      M_NO_GPU_CONFIGURATION_FOUND_TO_DELETE="No GPU configurations found to delete"
+      M_GPU_CONFIGURATION_ENABLE="Enabling GPU configuration by recreating docker-compose.yml"
+      M_CPU_CONFIGURATION_ENABLE="Enabling CPU configuration by recreating docker-compose.yml"
+      M_CONFIGURATION_REMOVED="configuration removed",
+      M_CONFIGURATION_BACK_UP="Original backup is saved as docker-compose.yml.bak.",
+      M_CREATED_DOCKER_COMPOSE="New $DOCKER_COMPOSE_FILE created with"
+      M_REMOVE_DOCKER_COMPOSE="Removing existing $DOCKER_COMPOSE_FILE"
+      M_LOG_DISPLAY_GUIDE="Logs are being displayed. Press Ctrl+C to stop viewing logs and return to the main menu"
+      M_MINER_RESTART="Restarting miner"
+      M_MINER_STOP="Stopping miner"
+      M_MINER_RESTARTED="Miner restarted"
 
       ;;
 
@@ -432,6 +628,34 @@ set_language() {
       M_TOTAL_SWAP="Swap รวม: , Swap ว่าง: "
       M_ENV_FILE_NOT_FOUND=".env ไม่พบไฟล์ กำลังสร้างไฟล์ .env ใหม่พร้อมการกำหนดค่าที่จำเป็น."
       M_PRIVATE_KEY_NOT_SET="VANA_PRIVATE_KEY ยังไม่ได้ตั้งค่า โปรดกรอกกุญแจส่วนตัวของคุณ (16 ตัวอักษร):"
+      M_CHECK_CPU_ERR="Unable to detect CPU type or core count."
+      M_AVAILABLE_RAM="Available RAM"
+      M_INVALID_PK="Invalid VANA_PRIVATE_KEY format in .env file. Please enter a valid 64-character hexadecimal key."
+      M_VALID_PK="VANA_PRIVATE_KEY is valid and loaded from .env."
+      M_INPUT_NETWORK="Please enter the network (default is 'mainnet')"
+      M_INPUT_API_URL="Please enter the API URL (default is 'http://ollama:11434/api')"
+      M_SET_MSG="is set to"
+      M_INSTALL_REJECTION="User choose not to install"
+      M_GPU_REJECT="User choose to use GPU"
+      M_FILE_CREATION="Creating a new file with default configuration"
+      M_FILE_CREATED="has been created with default configuration"
+      M_GPU_CONFIG_ADD="GPU configuration added to"
+      M_NO_COMPATIBLE_GPU="No compatible GPU found"
+      M_CONTINUE_WITHOUT_GPU="Continue without GPU? (y/n)"
+      M_CONFIRM_CONTINUE_WITHOUT_GPU="User choice to continue without GPU"
+      M_REJECT_CONTINUE_WITHOUT_GPU="User choose not to continue without GPU"
+      M_GPU_CONFIGURATION_ADD="GPU configuration added to",
+      M_NO_GPU_CONFIGURATION_FOUND_TO_DELETE="No GPU configurations found to delete"
+      M_GPU_CONFIGURATION_ENABLE="Enabling GPU configuration by recreating docker-compose.yml"
+      M_CPU_CONFIGURATION_ENABLE="Enabling CPU configuration by recreating docker-compose.yml"
+      M_CONFIGURATION_REMOVED="configuration removed",
+      M_CONFIGURATION_BACK_UP="Original backup is saved as docker-compose.yml.bak.",
+      M_CREATED_DOCKER_COMPOSE="New $DOCKER_COMPOSE_FILE created with"
+      M_REMOVE_DOCKER_COMPOSE="Removing existing $DOCKER_COMPOSE_FILE"
+      M_LOG_DISPLAY_GUIDE="Logs are being displayed. Press Ctrl+C to stop viewing logs and return to the main menu"
+      M_MINER_RESTART="Restarting miner"
+      M_MINER_STOP="Stopping miner"
+      M_MINER_RESTARTED="Miner restarted"
 
       ;;
 
@@ -498,17 +722,17 @@ check_cpu() {
   else
     CPU_TYPE="Unknown"
     CPU_CORES="Unknown"
-    echo "Unable to detect CPU type or core count."
+    echo "$M_CHECK_CPU_ERR"
   fi
 }
 
 check_ram() {
-  echo "Checking RAM..."
+  echo "$M_CHECKING_RAM"
   RAM_SIZE=$(free -h --si | awk '/^Mem:/ {print $2}')
   AVAILABLE_RAM=$(free -h --si | awk '/^Mem:/ {print $7}')
   SWAP_TOTAL=$(free -h --si | awk '/^Swap:/ {print $2}')
   SWAP_FREE=$(free -h --si | awk '/^Swap:/ {print $4}')
-  echo "$M_TOTAL_RAM: $RAM_SIZE, Available RAM: $AVAILABLE_RAM"
+  echo "$M_TOTAL_RAM: $RAM_SIZE, $M_AVAILABLE_RAM: $AVAILABLE_RAM"
 }
 load_env_file() {
   if [ -f .env ]; then
@@ -528,34 +752,34 @@ check_vana_private_key() {
     read -r VANA_PRIVATE_KEY
     echo "VANA_PRIVATE_KEY=${VANA_PRIVATE_KEY}" >> .env
   elif [[ ! "$VANA_PRIVATE_KEY" =~ $private_key_regex ]]; then
-    echo "Invalid VANA_PRIVATE_KEY format in .env file. Please enter a valid 64-character hexadecimal key."
+    echo "$M_INVALID_PK"
     exit 1
   else
-    echo "VANA_PRIVATE_KEY is valid and loaded from .env."
+    echo "$M_VALID_PK"
   fi
 }
 
 check_vana_network() {
   load_env_file
   if [ -z "${VANA_NETWORK}" ]; then
-    echo "Please enter the network (default is 'mainnet'):"
+    echo "$M_INPUT_NETWORK:"
     read -r VANA_NETWORK
     VANA_NETWORK="${VANA_NETWORK:-mainnet}"
     echo "VANA_NETWORK=${VANA_NETWORK}" >> .env
   else
-    echo "VANA_NETWORK is set to: $VANA_NETWORK."
+    echo "VANA_NETWORK $M_SET_MSG: $VANA_NETWORK."
   fi
 }
 
 check_ollama_api() {
   load_env_file
   if [ -z "${OLLAMA_API_URL}" ]; then
-    echo "Please enter the API URL (default is 'http://ollama:11434/api'):"
+    echo "$M_INPUT_API_URL:"
     read -r OLLAMA_API_URL
     OLLAMA_API_URL="${OLLAMA_API_URL:-http://ollama:11434/api}"
     echo "OLLAMA_API_URL=${OLLAMA_API_URL}" >> .env
   else
-    echo "OLLAMA_API_URL is set to: $OLLAMA_API_URL."
+    echo "OLLAMA_API_URL $M_SET_MSG: $OLLAMA_API_URL."
   fi
 }
 
@@ -564,14 +788,14 @@ if ! command -v docker &> /dev/null; then
     echo "$M_INSTALL_DOCKER"
     read -p "> " install_choice
     if [[ $install_choice == "y" || $install_choice == "Y" ]]; then
-        echo "Installing Docker..."
+        echo "$M_INSTALLING_DOCKER"
         sudo apt-get update
         sudo apt-get install -y docker.io
         sudo systemctl start docker
         sudo systemctl enable docker
-        echo "Docker installed and started."
+        echo "$M_DOCKER_INSTALLED"
     else
-        echo "User chose not to install Docker. Exiting."
+        echo "$M_INSTALL_REJECTION Docker. Exiting."
         exit 1
     fi
 else
@@ -588,7 +812,7 @@ if ! command -v docker-compose &> /dev/null; then
         pip install -U docker
         echo "$M_COMPOSE_INSTALLED."
     else
-        echo "User chose not to install Docker Compose. Exiting."
+        echo "$M_INSTALL_REJECTION Docker Compose. Exiting."
         exit 1
     fi
 else
@@ -608,7 +832,7 @@ if [[ $create_new == "n" || $create_new == "N" ]]; then
     echo "$M_SKIPPED_NEW_CONFIG."
 else
     if [[ ! -f "$DOCKER_COMPOSE_FILE" ]]; then
-        echo "$M_FILE_NOT_FOUND $DOCKER_COMPOSE_FILE Creating a new file with default configuration..."
+        echo "$M_FILE_NOT_FOUND $DOCKER_COMPOSE_FILE $M_FILE_CREATION..."
         cat <<EOF > "$DOCKER_COMPOSE_FILE"
 version: '3.8'
 
@@ -646,13 +870,13 @@ services:
 volumes:
   ollama:
 EOF
-        echo "$DOCKER_COMPOSE_FILE has been created with default configuration."
+        echo "$DOCKER_COMPOSE_FILE $M_FILE_CREATED."
     else
         echo "$DOCKER_COMPOSE_FILE found."
     fi
 
     read -p "$M_USE_GPU " use_gpu_choice
-    echo "User chose to use GPU: $use_gpu_choice"
+    echo "$M_GPU_REJECT: $use_gpu_choice"
 
     if [[ $use_gpu_choice == "y" || $use_gpu_choice == "Y" ]]; then
         if command -v nvidia-smi &> /dev/null && nvidia-smi &> /dev/null; then
@@ -700,7 +924,7 @@ services:
 volumes:
   ollama:
 EOF
-            echo "GPU configuration added to $DOCKER_COMPOSE_FILE."
+            echo "$M_GPU_CONFIG_ADD $DOCKER_COMPOSE_FILE."
         elif command -v rocm-smi &> /dev/null && rocm-smi &> /dev/null; then
             echo "AMD GPU found."
             cat <<EOF > "$DOCKER_COMPOSE_FILE"
@@ -745,13 +969,13 @@ services:
 volumes:
   ollama:
 EOF
-            echo "GPU configuration added to $DOCKER_COMPOSE_FILE."
+            echo "$M_GPU_CONFIG_ADD $DOCKER_COMPOSE_FILE."
         else
-            echo "No compatible GPU found."
-            read -p "Continue without GPU? (y/n): " continue_without_gpu
-            echo "User choice to continue without GPU: $continue_without_gpu"
+            echo "$M_NO_COMPATIBLE_GPU."
+            read -p "$M_CONTINUE_WITHOUT_GPU: " continue_without_gpu
+            echo "$M_CONFIRM_CONTINUE_WITHOUT_GPU: $continue_without_gpu"
             if [[ $continue_without_gpu != "y" && $continue_without_gpu != "Y" ]]; then
-                echo "User chose not to continue without GPU. Exiting."
+                echo "$M_REJECT_CONTINUE_WITHOUT_GPU. Exiting."
                 exit 1
             fi
             cat <<EOF > "$DOCKER_COMPOSE_FILE"
@@ -791,13 +1015,13 @@ services:
 volumes:
   ollama:
 EOF
-            echo "Non-GPU configuration added to $DOCKER_COMPOSE_FILE."
+            echo "Non-$M_GPU_CONFIGURATION_ADD $DOCKER_COMPOSE_FILE."
         fi
     else
         if sed -i.bak '/deploy:/,/capabilities: \[gpu\]/d' "$DOCKER_COMPOSE_FILE"; then
-            echo "GPU configuration removed. Original backup is saved as docker-compose.yml.bak."
+            echo "GPU $M_CONFIGURATION_REMOVED. Original backup is saved as docker-compose.yml.bak."
         else
-            echo "No GPU configurations found to delete."
+            echo "$M_NO_GPU_CONFIGURATION_FOUND_TO_DELETE."
         fi
     fi
 fi
@@ -849,7 +1073,7 @@ while true; do
       echo "Docker containers started."
       ;;
     2)
-      echo "Stopping miner..."
+      echo "$_MINER_STOP..."
       docker-compose down
       echo "$M_EXIT_SCRIPT"
       ;;
@@ -868,7 +1092,7 @@ while true; do
     docker-compose logs -f &
     LOGS_PID=$!
 
-    echo "Logs are being displayed. Press Ctrl+C to stop viewing logs and return to the main menu."
+    echo "$M_LOG_DISPLAY_GUIDE."
     trap 'echo ""; echo "Returning to main menu..."; kill $LOGS_PID' SIGINT
     wait $LOGS_PID
     trap - SIGINT
@@ -876,10 +1100,10 @@ while true; do
     ;;
 
       6)
-      echo "Enabling GPU configuration by recreating docker-compose.yml..."
+      echo "$M_GPU_CONFIGURATION_ENABLE..."
       DOCKER_COMPOSE_FILE="docker-compose.yml"
       if [[ -f "$DOCKER_COMPOSE_FILE" ]]; then
-          echo "Removing existing $DOCKER_COMPOSE_FILE..."
+          echo "$M_REMOVE_DOCKER_COMPOSE..."
           rm "$DOCKER_COMPOSE_FILE"
       fi
       cat <<EOL > "$DOCKER_COMPOSE_FILE"
@@ -926,14 +1150,14 @@ volumes:
   ollama:
 EOL
 
-      echo "New $DOCKER_COMPOSE_FILE created with GPU configuration."
+      echo "$M_CREATED_DOCKER_COMPOSE GPU configuration."
       ;;
 
   7)
-      echo "Enabling CPU configuration by recreating docker-compose.yml..."
+      echo "$M_CPU_CONFIGURATION_ENABLE..."
       DOCKER_COMPOSE_FILE="docker-compose.yml"
       if [[ -f "$DOCKER_COMPOSE_FILE" ]]; then
-          echo "Removing existing $DOCKER_COMPOSE_FILE..."
+          echo "$M_REMOVE_DOCKER_COMPOSE..."
           rm "$DOCKER_COMPOSE_FILE"
       fi
       cat <<EOL > "$DOCKER_COMPOSE_FILE"
@@ -973,12 +1197,12 @@ services:
 volumes:
   ollama:
 EOL
-      echo "New $DOCKER_COMPOSE_FILE created with CPU-only configuration."
+      echo "$M_CREATED_DOCKER_COMPOSE CPU-only configuration."
       ;;
     8)
-      echo "Restarting miner..."
+      echo "$M_MINER_RESTART..."
       docker-compose down && docker-compose build && docker-compose up -d
-      echo "Miner restarted."
+      echo "$M_MIINER_RESTARTED."
       ;;
     9)
       echo "$M_EXIT_SCRIPT"
